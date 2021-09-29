@@ -17,6 +17,15 @@
     padding: 12px;
   }
   
+  @media only screen and (max-width:321px) {
+    .modalBackground {
+      transform: translate(-9%, -170%);
+    }
+    .modalContainer {
+      width: 80vw;
+    }
+  }
+
   .modalContainer .title {
     display: inline-block;
     text-align: center;

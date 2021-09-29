@@ -3,11 +3,11 @@
     left: 50vh;
     right: auto;
     bottom: auto;
-    transform: translate(14%, -190%);
+    transform: translate(-25%, -170%);
 }
   
   .modalContainer {
-    width: 65vw;
+    width: 60vw;
     height: 35vh;
     border-radius: 12px;
     background-color: white;
@@ -52,7 +52,7 @@
   }
   
   .modalContainer .footer button {
-    width: 120px;
+    width: 100px;
     height: 35px;
     margin: 8px;
     border: none;

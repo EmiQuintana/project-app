@@ -25,7 +25,7 @@ const EditProject = (props) => {
 
     return (
         <div className="container-sm">
-            <div className="d-flex mb-3">
+            <div className="d-flex mb-3 mt-3">
                 <Link to="/" className="mx-3 mt-2">
                     <ArrowBackIcon color='action' />
                 </Link>
@@ -66,13 +66,13 @@ const EditProject = (props) => {
                             <option value="Disable">Disable</option>
                         </select>
                     </div>
-                    <div className="mt-3">
+                    <div className="mt-3 d-flex align-items-end flex-column bd-highlight">
                         <button
                             type="submit"
-                            className="btn btn-outline-danger"
+                            className="btn btn-danger bd-highlight"
                             onClick={() => { setOpenModal(true); }}
                         >
-                            Edit Project
+                            Save
                         </button>
                         {openModal && <ModalEdit closeModal={setOpenModal} />}
                     </div>
